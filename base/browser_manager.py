@@ -1,5 +1,6 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options as ChromeOption
 
 from pages.urls import main_url
 
@@ -17,7 +18,10 @@ class WebDriverManager:
         elif self.browser == "safari":
             driver = webdriver.Safari()
         elif self.browser == "chrome":
-            webdriver.Chrome(executable_path=ChromeDriverManager().install())
+            chrome_option = ChromeOption()
+            webdriver.Chrome(ChromeDriverManager().install(), chrome_options=chrome_option)
+            #driver_instance = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=chrome_option)
+            #webdriver.Chrome(executable_path=ChromeDriverManager().install())
         else:
             raise ValueError("Incorrect browser name")
         driver.implicitly_wait(3)

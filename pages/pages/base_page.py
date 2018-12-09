@@ -6,7 +6,7 @@ from pages.urls import main_url
 
 
 class BasePage:
-    def __index__(self, driver=None, url=""):
+    def __init__(self, driver=None, url=""):
         self.driver = driver
         self.url = main_url
 
@@ -24,12 +24,15 @@ class BasePage:
         wait = WebDriverWait(self.driver,
                              timeout=timeout,
                              poll_frequency=poll_frequency)
-        element = wait.until(EC.element_to_be_clickable((locator, locator_type)))
+        element = wait.until(EC.element_to_be_clickable((locator_type, locator)))
         return element
 
     def get_element(self, locator='', locator_type=By.XPATH):
-        element = self.wait_for_element(locator, locator_type)
-        return element
+        return self.wait_for_element(locator, locator_type)
+
+    def select_page(self, locator='', locator_type=By.XPATH):
+        page = self.get_element(locator, locator_type)
+        page.click()
 
     def clear_field(self, locator='', locator_type=By.XPATH):
         element = self.get_element(locator, locator_type)
@@ -47,5 +50,7 @@ class BasePage:
         current_url = self.driver.current_url
         return current_url
 
-    def is_element_dispalyed(self, locator='', locator_type=By.XPATH):
-        pass
+    def is_element_displayed(self, locator='', locator_type=By.XPATH):
+        element = self.get_element(locator, locator_type)
+        element = element.is_displayed()
+        return element

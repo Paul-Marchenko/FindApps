@@ -18,8 +18,9 @@ class WebDriverManager:
         elif self.browser == "safari":
             driver = webdriver.Safari()
         elif self.browser == "chrome":
-            chrome_option = ChromeOption()
-            webdriver.Chrome(ChromeDriverManager().install(), chrome_options=chrome_option)
+            driver = webdriver.Chrome(ChromeDriverManager().install())
+            # chrome_option = ChromeOption()
+            # webdriver.Chrome(ChromeDriverManager().install(), chrome_options=chrome_option)
             #driver_instance = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=chrome_option)
             #webdriver.Chrome(executable_path=ChromeDriverManager().install())
         else:

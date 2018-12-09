@@ -3,9 +3,11 @@ import logging
 
 from base.browser_manager import WebDriverManager
 
+
 @pytest.fixture(scope='session')
-def browser_type(self):
+def browser_type():
     return "chrome"
+
 
 @pytest.fixture(scope='session')
 def run_browser(browser_type):
@@ -13,6 +15,7 @@ def run_browser(browser_type):
     driver = driver.get_browser_type()
     yield driver
     driver.quit()
+
 
 @pytest.fixture(scope='session')
 def logger():

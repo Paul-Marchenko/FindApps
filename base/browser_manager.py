@@ -1,5 +1,8 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
+from webdriver_manager.microsoft import EdgeDriverManager
+from webdriver_manager.microsoft import IEDriverManager
 from selenium.webdriver.chrome.options import Options as ChromeOption
 
 from pages.urls import main_url
@@ -12,9 +15,12 @@ class WebDriverManager:
 
     def get_browser_type(self):
         if self.browser == "iexplorer":
-            driver = webdriver.Ie()
+            driver = webdriver.Ie(IEDriverManager().install())
+        elif self.browser == "edge":
+            driver = webdriver.Edge(EdgeDriverManager().install())
         elif self.browser == "firefox":
-            driver = webdriver.Firefox()
+            #driver = webdriver.Firefox()
+            driver = webdriver.Firefox(GeckoDriverManager().install())
         elif self.browser == "safari":
             driver = webdriver.Safari()
         elif self.browser == "chrome":

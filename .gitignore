@@ -98,3 +98,4 @@ venv/
 video/
 .DS_Store/
 allure-report/
+surefire-reports/

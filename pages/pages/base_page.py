@@ -64,7 +64,12 @@ class BasePage:
         return current_url
 
     def is_element_displayed(self, locator='', locator_type=By.XPATH):
+        #import pdb; pdb.set_trace()
         element = self.get_element(locator, locator_type)
         element = element.is_displayed()
         #logger.info(element + " is displayed")
         return element
+
+    def is_element_present(self, locator='', locator_type=By.XPATH):
+        element = self.get_element(locator, locator_type)
+

@@ -17,5 +17,17 @@ class JobPage(BasePage):
 
         element = self.get_element(ALL_CATEGORIES_DROP_DOWN, locator_type=By.NAME)
         select = Select(element)
-        position_type = self.get_element(POSITION).text
+        position_type = self.get_element(position).text
         select.select_by_value(position_type)
+
+    def select_town(self, town_name):
+        self.element_select(town_name)
+        import time;
+        time.sleep(2)
+
+    def input_town(self, town_name):
+        self.send_data(town_name, SEARCH_FIELD, locator_type=By.CSS_SELECTOR)
+
+    def click_search_button(self):
+        self.element_select(SEARCH_BUTTON, locator_type=By.CSS_SELECTOR)
+

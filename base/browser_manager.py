@@ -20,7 +20,8 @@ class WebDriverManager:
             driver = webdriver.Edge(EdgeDriverManager().install())
         elif self.browser == "firefox":
             #driver = webdriver.Firefox()
-            driver = webdriver.Firefox(GeckoDriverManager().install())
+            #driver = webdriver.Firefox(GeckoDriverManager().install())
+            driver = webdriver.Firefox(executable_path='/Users/pavel/.wdm/geckodriver/v0.23.0/macos/geckodriver')
         elif self.browser == "safari":
             driver = webdriver.Safari()
         elif self.browser == "chrome":

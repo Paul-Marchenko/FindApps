@@ -4,9 +4,8 @@ import allure
 from pages.pages.main_page.main_page import MainPage
 from pages.pages.job_page.job_page import JobPage
 from pages.urls import JOBS_URN, POSITION_URN
-from tests.conftest import *
-from pages.locators.main_page_locators import *
-from pages.locators.job_page_locators import *
+from pages.locators.main_page_locators import JOB_LINK
+from pages.locators.job_page_locators import POSITION, HEADER_VACANCY
 
 
 class TestMainPage:

@@ -1,5 +1,4 @@
 import pytest
-import allure
 
 from pages.pages.main_page.main_page import MainPage
 from pages.pages.job_page.job_page import JobPage

@@ -34,7 +34,7 @@ class TestMainPage:
         job_page.select_vacancy(POSITION)
         #import pdb; pdb.set_trace()
         job_page.select_town(TOWN)
-        #job_page.input_town("Киев")
+        #job_page.input_town(" ")
         import time; time.sleep(2)
         job_page.click_search_button()
         vacancies = job_page.is_element_displayed(HEADER_VACANCY)

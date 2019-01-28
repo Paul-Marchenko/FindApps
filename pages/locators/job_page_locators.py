@@ -13,5 +13,6 @@ POSITION = '//option[text()="QA"]'  # XPATH locator
 ######################################################################################################################
 # Towns Locators
 ######################################################################################################################
-TOWN = '//ul[@class="other"]//li[a][1]'  # XPATH locator
-HEADER_VACANCY = '//h1[contains(text(),"Киев")]'  # XPATH locator
+TOWN = '//ul[@class="other"]//li[1]'  # XPATH locator
+TOWN1 = '//ul[@class="other"]//li[a][1]'  # XPATH locator
+HEADER_VACANCY = '//ul[@class="other"]//li[1]'  # XPATH locator

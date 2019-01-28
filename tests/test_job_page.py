@@ -11,7 +11,6 @@ from pages.locators.job_page_locators import POSITION, HEADER_VACANCY,TOWN
 class TestMainPage:
 
     @pytest.mark.sanity
-    @pytest.allure.step("Test first")
     def test_job_page(self, run_browser, logger):
         main_page = MainPage(run_browser)
         main_page.select_job_page(JOB_LINK)
@@ -20,7 +19,6 @@ class TestMainPage:
         logger.info("Page with url " + current_url + " is opened")
 
     @pytest.mark.smoke
-    @pytest.allure.step('My Feature')
     def test_selected_vacancies(self, run_browser, logger):
         job_page = JobPage(run_browser)
         job_page.select_vacancy(POSITION)

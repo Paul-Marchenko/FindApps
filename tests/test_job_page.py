@@ -17,7 +17,7 @@ class TestMainPage:
         assert current_url == JOBS_URN
         logger.info("Page with url " + current_url + " is opened")
 
-    @pytest.mark.skip
+    @pytest.mark.smoke
     def test_selected_vacancies(self, run_browser, logger):
         job_page = JobPage(run_browser)
         job_page.select_vacancy(POSITION)
@@ -26,7 +26,7 @@ class TestMainPage:
         assert current_url == POSITION_URN
         logger.info("Job_page with url " + current_url + " is opened")
 
-    @pytest.mark.skip
+    @pytest.mark.feature
     def test_vacancies_for_town_displayed(self, run_browser, logger):
         job_page = JobPage(run_browser)
         job_page.select_vacancy(POSITION)

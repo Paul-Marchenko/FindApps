@@ -10,7 +10,7 @@ from tests.conftest import logger
 
 #@pytest.mark.usefixtures("logger")
 class BasePage:
-    def __init__(self, driver=None, url=""):
+    def __init__(self, driver=None):
         self.driver = driver
         self.url = MAIN_URL
 

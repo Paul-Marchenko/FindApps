@@ -4,7 +4,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import logging
 
-from pages.urls import main_url
+from pages.urls import MAIN_URL
 from tests.conftest import logger
 
 
@@ -12,7 +12,7 @@ from tests.conftest import logger
 class BasePage:
     def __init__(self, driver=None, url=""):
         self.driver = driver
-        self.url = main_url
+        self.url = MAIN_URL
 
     def open_page(self):
         self.driver.get_url(self.url)

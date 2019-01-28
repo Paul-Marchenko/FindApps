@@ -5,7 +5,7 @@ from webdriver_manager.microsoft import EdgeDriverManager
 from webdriver_manager.microsoft import IEDriverManager
 from selenium.webdriver.chrome.options import Options as ChromeOption
 
-from pages.urls import main_url
+from pages.urls import MAIN_URL
 
 
 class WebDriverManager:
@@ -34,7 +34,8 @@ class WebDriverManager:
             raise ValueError("Incorrect browser name")
         driver.implicitly_wait(3)
         # driver.maximize_window()
-        driver.get(main_url())
+        #driver.get(main_url())
+        driver.get(MAIN_URL)
         return driver
 
 

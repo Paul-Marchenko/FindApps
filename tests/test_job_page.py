@@ -4,7 +4,7 @@ from pages.pages.main_page.main_page import MainPage
 from pages.pages.job_page.job_page import JobPage
 from pages.urls import JOBS_URN, POSITION_URN
 from pages.locators.main_page_locators import JOB_LINK
-from pages.locators.job_page_locators import POSITION, HEADER_VACANCY,TOWN
+from pages.locators.job_page_locators import POSITION, HEADER_VACANCY, TOWN
 
 
 class TestMainPage:
@@ -30,10 +30,7 @@ class TestMainPage:
     def test_vacancies_for_town_displayed(self, run_browser, logger):
         job_page = JobPage(run_browser)
         job_page.select_vacancy(POSITION)
-        #import pdb; pdb.set_trace()
         job_page.select_town(TOWN)
-        #job_page.input_town(" ")
-        import time; time.sleep(2)
         job_page.click_search_button()
         vacancies = job_page.is_element_displayed(HEADER_VACANCY)
         print(vacancies)

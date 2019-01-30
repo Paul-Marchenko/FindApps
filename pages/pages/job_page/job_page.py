@@ -2,7 +2,8 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.by import By
 
 from pages.pages.base_page import BasePage
-from pages.locators.job_page_locators import *
+from pages.locators.job_page_locators \
+    import ALL_CATEGORIES_DROP_DOWN, SEARCH_FIELD, SEARCH_BUTTON
 from pages.urls import JOBS_URN
 
 
@@ -15,7 +16,8 @@ class JobPage(BasePage):
 
     def select_vacancy(self, position):
 
-        element = self.get_element(ALL_CATEGORIES_DROP_DOWN, locator_type=By.NAME)
+        element = self.get_element(ALL_CATEGORIES_DROP_DOWN,
+                                   locator_type=By.NAME)
         select = Select(element)
         position_type = self.get_element(position).text
         select.select_by_value(position_type)

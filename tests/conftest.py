@@ -3,7 +3,7 @@ import logging
 
 from base.browser_manager import WebDriverManager
 
-
+#TODO: can be used instead of pytest_addoption
 # @pytest.fixture(scope='session')
 # def browser_type():
 #     #return "chrome"
@@ -19,7 +19,6 @@ def run_browser(browser):
 
 
 @pytest.fixture(scope='session')
-#@pytest.fixture()
 def logger():
     log = logging.getLogger("pytest-logger")
     log.setLevel(logging.DEBUG)  # TODO: consider of a correct level

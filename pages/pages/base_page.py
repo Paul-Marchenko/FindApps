@@ -30,7 +30,10 @@ class BasePage:
         return element
 
     def get_element(self, locator='', locator_type=By.XPATH):
+        print("log11")
         element = self.wait_for_element(locator, locator_type)
+        print("log121")
+        print("log0000")
         return element
 
     def select_page(self, locator='', locator_type=By.XPATH):
@@ -48,6 +51,7 @@ class BasePage:
     def element_select(self, locator='', locator_type=By.XPATH):
         element = self.get_element(locator, locator_type)
         element.click()
+
 
     def verify_current_url(self):
         current_url = self.driver.current_url

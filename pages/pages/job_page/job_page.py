@@ -23,9 +23,25 @@ class JobPage(BasePage):
         select.select_by_value(position_type)
 
     def select_town(self, town_name):
-        self.element_select(town_name)
+        print("log1")
+        element = self.get_element(town_name)
+        print("log1331")
         import time;
         time.sleep(2)
+        print("log14441")
+        element.click()
+
+    # def wait_for_element(self, locator,
+    #                      locator_type=By.XPATH,
+    #                      timeout=10,
+    #                      poll_frequency=1
+    #                      ):
+    #     wait = WebDriverWait(self.driver,
+    #                          timeout=timeout,
+    #                          poll_frequency=poll_frequency)
+    #     element = wait.until(EC.element_to_be_clickable((locator_type,
+    #                                                      locator)))
+    #     return element
 
     def input_town(self, town_name):
         self.send_data(town_name, SEARCH_FIELD, locator_type=By.CSS_SELECTOR)

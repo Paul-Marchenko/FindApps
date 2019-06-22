@@ -1,3 +1,5 @@
+from constants import city_name
+
 ######################################################################################################################
 # JOB Page Locators
 ######################################################################################################################
@@ -13,6 +15,7 @@ POSITION = '//option[text()="QA"]'  # XPATH locator
 ######################################################################################################################
 # Towns Locators
 ######################################################################################################################
-TOWN = '//div[@class="ot-te"]/..//ul[@class="other"]//li[1]'  # XPATH locator
-TOWN1 = '//ul[@class="other"]//li[1]'  # XPATH locator
+TOWN1 = '//div[@class="b-region-filter"]//ul[2]/li[1]'  # XPATH locator
+TOWN = '(//a[contains(@href,"https://jobs.dou.ua/vacancies/?city")])[1]'  # XPATH locator
 HEADER_VACANCY = '//ul[@class="other"]//li[1]'  # XPATH locator
+HEADER_VACANCY1 = '//div[@class="b-inner-page-header"]//h1[contains(text(),"{city_name}")]'  # XPATH locator

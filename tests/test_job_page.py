@@ -37,7 +37,7 @@ class TestMainPage:
         name = '%.*s' % (19, generate_name())
         take_screenshot(run_browser, name)
 
-    @pytest.mark.feature
+    @pytest.mark.skip
     def test_vacancies_for_town_displayed(self,
                                           run_browser,
                                           logger,

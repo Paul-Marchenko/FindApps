@@ -24,12 +24,11 @@ class JobPage(BasePage):
 
     def select_town(self, town_name):
         print("log1")
-        element = self.get_element(town_name)
+        self.select_page(town_name)
         print("log1331")
         import time;
         time.sleep(2)
         print("log14441")
-        element.click()
 
     # def wait_for_element(self, locator,
     #                      locator_type=By.XPATH,

@@ -1,7 +1,6 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
-from webdriver_manager.microsoft import EdgeDriverManager
 from webdriver_manager.microsoft import IEDriverManager
 
 from pages.urls import MAIN_URL
@@ -15,15 +14,12 @@ class WebDriverManager:
     def get_browser_type(self):
         if self.browser == "iexplorer":
             driver = webdriver.Ie(IEDriverManager().install())
-        elif self.browser == "edge":
-            driver = webdriver.Edge(EdgeDriverManager().install())
         elif self.browser == "firefox":
             # TODO: use driver = webdriver
-            # .Firefox(GeckoDriverManager().install())
-            driver = webdriver\
-                .Firefox(executable_path='/Users/pavel/'
-                                         '.wdm/geckodriver/'
-                                         'v0.23.0/macos/geckodriver')
+            driver = webdriver.Firefox(GeckoDriverManager().install())
+            # driver = webdriver.Firefox(executable_path='/Users/pavel/'
+            #                              '.wdm/geckodriver/'
+            #                              'v0.23.0/macos/geckodriver')
         elif self.browser == "safari":
             driver = webdriver.Safari()
         elif self.browser == "chrome":

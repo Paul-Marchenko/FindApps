@@ -2,57 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0107b03b-ad03-436e-9bf6-ff6eb6181c64" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/containers/docker_browsers/windows/Docker_file_ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FindApps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FindApps.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/browser_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/browser_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_job_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_job_page.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1966252498">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="txt" value="41" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="41" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,67 +28,51 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/MainConfigs/Login.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="23" />
-    <option name="width" value="1400" />
-    <option name="height" value="763" />
-  </component>
+  <component name="ProjectId" id="1aFmt7GuNE26gJGST4ygclrZ6hV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FindApps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FindApps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FindApps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FindApps" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FindApps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pmarchenko\Documents\py_projects\FindApps\webdrivers" />
+      <recent name="C:\Users\pmarchenko\Documents\py_projects\FindApps\containers\docker_browsers\windows" />
+      <recent name="C:\Users\pmarchenko\Documents\py_projects\FindApps\containers\docker_browsers" />
+      <recent name="C:\Users\pmarchenko\Documents\py_projects\FindApps\containers\docker_selenoid" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pmarchenko\Documents\py_projects\FindApps\containers\docker_browsers\unix" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.pytest in test_my_test.py">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="FindApps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\pmarchenko\Documents\py_projects\FindApps\find_apps\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/find_app_venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_app_venv/Scripts" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tester" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FindApps" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,19 +80,95 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MainConfigs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MainConfigs/Login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/pages/job_page/tester.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_job_page.TestMainPage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="FindApps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_job_page.TestMainPage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_job_page.TestMainPage.test_job_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="FindApps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_job_page.TestMainPage.test_job_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_job_page.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="FindApps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_job_page.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_my_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="FindApps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_my_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.tester" />
+      <item itemvalue="Python tests.pytest for test_job_page.TestMainPage" />
+      <item itemvalue="Python tests.pytest for test_job_page.TestMainPage.test_job_page" />
+      <item itemvalue="Python tests.pytest in test_job_page.py" />
+      <item itemvalue="Python tests.pytest in test_my_test.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in test_my_test.py" />
+        <item itemvalue="Python.tester" />
+        <item itemvalue="Python tests.pytest for test_job_page.TestMainPage" />
+        <item itemvalue="Python tests.pytest in test_job_page.py" />
+        <item itemvalue="Python tests.pytest for test_job_page.TestMainPage.test_job_page" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -168,40 +192,66 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1400" height="763" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3561848" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="3" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MainConfigs/Login.py" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="69" y="166" width="1664" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591331687589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="69" y="166" width="1664" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591331687589" />
+    <state x="967" y="216" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1586433288217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="967" y="216" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586433288217" />
+    <state x="907" y="125" key="#test_job_page" timestamp="1586340167168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="907" y="125" key="#test_job_page/0.0.1920.1040@0.0.1920.1040" timestamp="1586340167168" />
+    <state x="1133" y="257" key="FileChooserDialogImpl" timestamp="1591331684060">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1133" y="257" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591331684060" />
+    <state width="1325" height="359" key="GridCell.Tab.0.bottom" timestamp="1592371230761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1325" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592371230761" />
+    <state width="1325" height="359" key="GridCell.Tab.0.center" timestamp="1592371230761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1325" height="359" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592371230761" />
+    <state width="1325" height="359" key="GridCell.Tab.0.left" timestamp="1592371230761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1325" height="359" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592371230761" />
+    <state width="1325" height="359" key="GridCell.Tab.0.right" timestamp="1592371230761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1325" height="359" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592371230761" />
+    <state width="1232" height="303" key="GridCell.Tab.1.bottom" timestamp="1588917985381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1232" height="303" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588917985381" />
+    <state width="1232" height="303" key="GridCell.Tab.1.center" timestamp="1588917985381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1232" height="303" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588917985381" />
+    <state width="1232" height="303" key="GridCell.Tab.1.left" timestamp="1588917985381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1232" height="303" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588917985381" />
+    <state width="1232" height="303" key="GridCell.Tab.1.right" timestamp="1588917985381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1232" height="303" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588917985381" />
+    <state x="521" y="145" width="1331" height="715" key="SettingsEditor" timestamp="1591331424103">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="521" y="145" width="1331" height="715" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591331424103" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1591328976861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591328976861" />
+    <state x="810" y="238" key="search.everywhere.popup" timestamp="1591074402926">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="810" y="238" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591074402926" />
   </component>
 </project>

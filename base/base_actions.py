@@ -1,3 +1,6 @@
+import os
+
+
 def take_screenshot(driver, generate_name):
 
     """
@@ -6,6 +9,7 @@ def take_screenshot(driver, generate_name):
     :return:
     """
     file_name = str(generate_name) + ".png"
+    dir_tmp = os.getcwd()
     screenshot_directory = "/Users/pavel/PycharmProjects/FindApps/screenshots/"
     destination_file = screenshot_directory + file_name
 

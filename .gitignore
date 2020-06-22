@@ -94,8 +94,16 @@ ENV/
 __pycache__
 *.pyc
 .idea/*
-venv/
 video/
 .DS_Store/
 allure-report/
 surefire-reports/
+*.idea*
+*.iml
+*.zip
+*.dll
+*/Scripts/*
+*/pyvenv.cfg
+
+
+

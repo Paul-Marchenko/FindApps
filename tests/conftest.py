@@ -2,20 +2,26 @@ import pytest
 import logging
 
 from base.browser_manager import WebDriverManager
+from utils.test_data import BROWSERS_MAIN, TEST_BRO, BROWSERS
 
-#TODO: can be used instead of pytest_addoption
+
 # @pytest.fixture(scope='session')
 # def browser_type():
-#     #return "chrome"
 #     return "firefox"
 
 
 @pytest.fixture(scope='session')
-def run_browser(browser):
-    driver = WebDriverManager(browser)
-    driver = driver.get_browser_type()
-    yield driver
-    driver.quit()
+def run_browser(run_type):
+    for browser in BROWSERS:
+        driver = WebDriverManager(browser)
+        if run_type == 'local':
+            driver = driver.get_local_browser_type()
+        elif run_type == 'remote':
+            driver = driver.get_remote_browser_type()
+        else:
+            raise ValueError("Incorrect runtype of browser")
+        yield driver
+        driver.quit()
 
 
 @pytest.fixture(scope='session')
@@ -29,13 +35,18 @@ def logger():
 def pytest_addoption(parser):
     parser.addoption("--browser")
     parser.addoption("--type_test")
+    parser.addoption("--run_type")
 
 
 @pytest.fixture(scope="session")
 def browser(request):
     return request.config.getoption("--browser")
-
+#
+#
+# @pytest.fixture(scope="session")
+# def type_test(request):
+#     return request.config.getoption("--type_test")
 
 @pytest.fixture(scope="session")
-def type_test(request):
-    return request.config.getoption("--type_test")
+def run_type(request):
+    return request.config.getoption("--run_type")

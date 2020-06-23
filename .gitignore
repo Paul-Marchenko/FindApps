@@ -104,6 +104,8 @@ surefire-reports/
 *.dll
 */Scripts/*
 */pyvenv.cfg
+.idea/workspace.xml
+reports_results
 
 
 

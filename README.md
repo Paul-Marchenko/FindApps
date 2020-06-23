@@ -24,4 +24,10 @@ E.g.: `pytest tests/test_job_page.py --run_type remote`
 `docker-compose -f /path/to/docker-compose.yml up -d`
 `docker-compose -f /path/to/docker-compose.yml down`
 
+- Allure report:
+`allure serve reports_results`
+
+- Run with allure report:
+`pytest tests/test_job_page.py --run_type local --alluredir=reports_results | allure serve reports_results`
+
 

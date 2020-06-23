@@ -1,5 +1,6 @@
 import datetime
 import pytest
+import allure
 
 from pages.pages.main_page.main_page import MainPage
 from pages.pages.job_page.job_page import JobPage
@@ -15,7 +16,7 @@ def generate_name():
 
 
 class TestMainPage:
-
+    @allure.title("Test sanity")
     def test_job_page(self, run_browser, logger, generate_name):
         main_page = MainPage(run_browser)
         main_page.select_job_page(JOB_LINK)
